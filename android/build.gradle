@@ -24,10 +24,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.dsi.facebook_audience_network"
-    compileSdkVersion 36
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
