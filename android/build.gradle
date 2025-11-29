@@ -23,10 +23,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    namespace "com.dsi.facebook_audience_network"
+    compileSdkVersion 36
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 28
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
